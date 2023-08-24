@@ -1,0 +1,29 @@
+.grid {
+	width: 600px;
+	height: 600px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.invader {
+	background-color: rgb(30, 149, 50);
+	border-radius: 20px;
+}
+
+.shooter {
+	background-color: rgba(0, 174, 255, 0.738);
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}
